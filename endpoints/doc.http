@@ -1,0 +1,10 @@
+@baseUrl = http://localhost:8080
+
+### API Healthcheck
+GET {{baseUrl}}/api/healthcheck
+
+### API Post Healthcheck
+POST {{baseUrl}}/api/healthcheck
+
+### API Delete Healthcheck
+DELETE {{baseUrl}}/api/healthcheck
